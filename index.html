@@ -1,0 +1,143 @@
+<!--/Jihee Kim/-->
+<!--/jiheek1@andrew.cmu.edu/-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>SEOUL FOOD</title> <!--shows on tab-->
+  <link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="styling/style.css">
+</head>
+<body>
+  <div id="page">
+
+
+    <!--create navigation bar on the top of page -->
+    <!--indicate which page is the current page that the user is on -->
+    <ul>
+      <li>
+        <a class="currentpage" href="index.html">HOME</a>
+      </li>
+      <li>
+        <a href="traditionalhome.html">TRADITIONAL</a>
+      </li>
+      <li>
+        <a href="fusionhome.html">FUSION</a>
+      </li>
+      <li>
+        <a href="fasthome.html">FAST</a>
+      </li>
+      <li>
+        <a href="desserthome.html">DESSERT</a>
+      </li>
+    </ul>
+  </br> <!--add break-->
+
+
+  <div id="searchbar"> <!--add search bar with a button on the right end-->
+    <input type="text" placeholder="Keyword" name="search">
+    <button>
+      <i class="fa fa-search"> </i>
+    </button>
+  </div>
+  </br>
+
+  <!--add header and center it-->
+
+  <h1 class= "center-text"> SEOUL FOOD </h1>
+  <p class= "center-text2"> learn quick facts about different types of Korean foods
+                            and the most popular dish from each category!</p>
+
+
+  <!--create a container that spans the middle 90% of the canvas
+   and implement row and columns within that container. have 4 columns in one row
+   bootstrap will divide up the row and stack columns on top of each other, depending
+   on the screen size-->
+
+  <!--make the image clickable links to individual recipes-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+      <h3> TRADITIONAL FOOD </h3>
+      <div class="recipeimage">
+        <a href="bibimbaprecipe.html">
+          <img src="images/bibimbap.jpg" alt="Bibimbap"> </img>
+        </a>
+      </div>
+        <p style="font-family: Economica">
+          --> traditional Korean food is all about nutritional balance.
+          many traditional dishes are plant-based, as well
+        </p>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3">
+      <h3> FUSION FOOD </h3>
+      <div class="recipeimage">
+        <a href="carbonaratteokbokkirecipe.html">
+          <img src="images/carbonaratteokbokki.jpg" alt="Carbonara Tteokbokki"> </img>
+        </a>
+      </div>
+        <p style="font-family: Economica">
+          --> a lot of people experiment and add a western twist to traditional korean
+          food
+        </p>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> FAST FOOD </h3>
+    <div class="recipeimage">
+      <a href="boxedlunchrecipe.html">
+        <img src="images/packagedfood.jpg" alt="boxed convenience store meals"> </img>
+      </a>
+    </div>
+      <p style="font-family: Economica">
+        --> instant foods are quite popular in Korea and the quality of instant food
+        items, such as boxed meals that you can find at convenience stores are pretty
+        impressive
+      </p>
+  </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> DESSERT </h3>
+    <div class="recipeimage">
+      <a href="tteokrecipe.html">
+        <img src="images/tteok.jpg" alt="Traditional Rice Cakes"> </img>
+      </a>>
+      <p style="font-family: Economica">
+        --> dessert culture is big in korea, and traditional dessert cafe's have
+        become extremely popular to koreans and foreigners
+      </p>
+  </div>
+  </div>
+</div>
+
+
+
+</br> <!--add break-->
+
+
+  <footer class="footer"> <!--add footer-->
+    <div class = "center-text">
+       <h5> © 2019 </h5> <!--license-->
+      <div class="socialmedia"> <!--link social media sites-->
+        <a href="https://twitter.com/?lang=en">
+          <span class="twitter"> <img class= "socialmedialogo" src="images/twitter.png"/></span>
+        </a>
+        <a href="https://www.facebook.com/">
+          <span class="facebook"> <img class= "socialmedialogo" src="images/facebook.png"/></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript">
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+/*Jihee Kim
+jiheek1@andrew.cmu.edu
+*/
+
+body {
+  background-color: #707813;
+  color: #ffffff;
+	font-family:  'Oswald', sans-serif;
+	font-size: 90%;
+}
+
+footer {
+  clear: both;
+}
+
+input {
+  width: 20%;
+}
+
+h3 {
+  text-align: center;
+}
+
+h5 {
+  color: #C2D79E;
+  text-align: center;
+}
+
+/*to make a horizontal nav bar on top*/
+li {
+  color: #DFBDA1;
+  display: inline;
+  float: none;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration:none;
+}
+
+p {
+  color: #DFBDA1;
+  font-size: 26px;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Indicate the current section user is in by highlighting part of the nav bar*/
+ul a.currentpage {
+  color: #DA0001;
+}
+
+/*change the color of words when hovered over in the nav bar*/
+ul a:hover {
+  color: #C2D79E;
+  text-decoration-line: none;
+}
+
+.addmorerows {
+  text-align: center;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #700;
+  cursor: pointer;
+}
+
+/* Add background color when hovered over button */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add background color to the active button */
+.btn.active {
+  background-color: #DA0001;
+  color: white;
+}
+
+.center-text {
+  font-size: 50px;
+  margin-left: 10%;
+	margin-right: 10%;
+  margin-top:15px;
+  padding: 0;
+  text-align: center;
+}
+
+.center-text2 {
+  font-size: 25px;
+  margin-left: 10%;
+	margin-right: 10%;
+  margin-top:15px;
+  padding: 0;
+  text-align: center;
+}
+
+.center-text3 {
+  font-size: 20px;
+  margin-left: 10%;
+	margin-right: 10%;
+  margin-top:15px;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.container-fluid {
+  display: block;
+  height: auto;
+  margin: auto;
+  width: 90%;
+}
+
+.filterDiv {
+    display: none; /* Hidden by default */
+}
+
+.recipeimage {
+  display: block;
+  float: left;
+  height: auto;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.recipeimage img{
+  border-radius: 5%;
+  width:100%;
+}
+
+.selected1 {
+  color:brown;
+}
+
+.selected2 {
+  color:red;
+}
+
+.selected3 {
+   color:#707813;
+}
+
+.selected4 {
+  color:#C67171;
+}
+
+/* change the font-style of span selected by jquery */
+.spanselected {
+  font-style: italic;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+.sortbt {
+  border: none;
+  font-size: 10px;
+  outline: none;
+  padding: 4px 4px;
+  background-color: #700;
+}
+
+.socialmedialogo {
+	height: 2.5%;
+  width: 2.5%;
+}
+
+
+#page {
+  width: 100%;
+}
+
+#searchbar {
+  float:none;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#toptable {
+  color: black;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  outline-color: #FFFFFF;
+  outline-style: dashed;
+  outline-width: thin;
+  padding: 0;
+  text-align: center;
+}
+
+#toptablebutton {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  padding: 0;
+}
